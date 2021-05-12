@@ -3,4 +3,4 @@ Exercise and starter files by Prof. Neil Ernst, A.M., R.P. and O.E. (teaching te
 Group contributions by A.K., A.S., M.G., M.O., N.C..
 
 Integrated whale monitoring code from A.K. with code from M.G. and N.C.. Created UML object state diagrams for 
-WhaleList and Observation objects and explained states and transitions in corresponding ADR documents.
+WhaleList and Observation objects and explained object states and transitions in corresponding ADR documents.
