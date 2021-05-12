@@ -1,0 +1,99 @@
+@startuml
+
+skinparam titleBorderRoundCorner 20
+skinparam titleBorderThickness 0
+skinparam titleBorderColor grey
+title Observation State Diagram
+
+hide empty description
+
+skinparam state {
+  StartColor Black
+  EndColor Red
+  BackgroundColor LightGreen
+  BackgroundColor<<Warning>> Olive
+  BorderColor Gray
+  FontName Arial
+}
+
+
+state "Incomplete Observation" as obs1
+state "Updated Observation" as obs2
+
+[*] --> obs1: \r\rinit [time != null && observer != null]
+
+obs2 ---> set : \n\nobject update
+obs1 --> set : object update
+
+
+'/Sub-states here/'
+
+state "Setting" as set {
+    [*] --> sighting : set SightingState
+    [*] --> whale
+    [*] --> co : set Coordinates
+    [*] --> note : set Note
+    [*] --> dir : set HeadingDirection
+    state "Initialized SightingState" as sighting {
+        [*] --> sighting1
+        [*] --> sighting2
+        state "Empty SightingState" as sighting1
+        state "With SightingState" as sighting2
+        sighting1 --> sighting2 : add
+        sighting2 --> sighting1 : reset
+        sighting2 --> sighting2 : update
+    }
+
+    state "Initialized Pod" as whale {
+        state "No Whale" as whale1
+        state "With Whale" as whale2
+        [*] --> whale1
+        [*] --> whale2
+        whale1 --> whale2 : add whale(s)
+        whale2 --> whale2 : add whale(s)
+    }
+
+    state "Initialized Coordinate" as co {
+        state "Empty Coordinate" as co1
+        state "With Coordinate" as co2
+        [*] --> co1
+        [*] --> co2
+        co1 --> co2 : add
+        co2 --> co1 : reset
+        co2 --> co2 : update
+    }
+
+    state "Initialized Note" as note {
+        state "Empty Note" as note1
+        state "With Note" as note2
+        [*] --> note1
+        [*] --> note2
+        note1 --> note2 : add
+        note2 --> note1 : \nreset
+        note2 --> note2 : update
+    }
+
+    state "Initialized Direction" as dir {
+        state "Empty Direction" as dir1
+        state "With Direction" as dir2
+        [*] --> dir1
+        [*] --> dir2
+        dir1 --> dir2 : add
+        dir2 --> dir1 : reset
+        dir2 --> dir2 : update
+    }
+
+    sighting ---> obs2 : finish
+    whale ---> obs2 : finish
+    co ---> obs2 : finish
+    note --> obs2 : finish
+    dir --> obs2 : finish
+
+}
+
+
+
+
+
+
+@enduml
