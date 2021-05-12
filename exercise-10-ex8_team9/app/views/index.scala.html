@@ -1,0 +1,33 @@
+@()
+  @main("Welcome") {
+<html lang="en">
+<head>
+    <title>Whales</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon-32x32.png")">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body style="background: url(@routes.Assets.versioned("images/whales.jpg")) no-repeat center center fixed; background-size: cover;">
+  <div class="navigation">
+    <div class="nav-element" >
+      <a class="navigation" href="@routes.ParentController.index()"><i class="fa fa-home"></i> Home</a>
+    </div>
+    <div class="nav-element" >
+      <a class="navigation" href="@routes.ParentController.listWhales"><i class="fa fa-eye"></i>Whales</a>
+    </div>
+    <div class="nav-element" >
+      <a class="navigation" href="@routes.ParentController.listObservations"><i class="fa fa-search"></i>Observations</a>
+    </div>
+    <div class="nav-element" >
+      <a class="navigation" href="@routes.ParentController.stats"> <i class="fa fa-bar-chart"></i>Stats</a>
+    </div>
+  </div>
+<div class="nav-holder"></div>
+
+
+<img class="logo" src="@routes.Assets.versioned("images/logo.png")">
+
+</body>
+</html>
+}

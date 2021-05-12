@@ -1,0 +1,103 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: WebApi</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">ca.uvic.seng330.ex4</a> ]
+</div>
+
+<h1>Coverage Summary for Class: WebApi (ca.uvic.seng330.ex4)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">WebApi</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package ca.uvic.seng330.ex4;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.fasterxml.jackson.annotation.JsonProperty;
+<i>4</i>&nbsp;import org.apache.http.client.utils.URIBuilder;
+<i>5</i>&nbsp;
+<i>6</i>&nbsp;import java.io.BufferedReader;
+<i>7</i>&nbsp;import java.io.IOException;
+<i>8</i>&nbsp;import java.io.InputStreamReader;
+<i>9</i>&nbsp;import java.net.URISyntaxException;
+<i>10</i>&nbsp;import java.net.URL;
+<i>11</i>&nbsp;import java.util.Map;
+<i>12</i>&nbsp;import java.util.Optional;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;/**
+<i>15</i>&nbsp; * A description of a generic class that accesses a REST, HTML , or XML web api
+<i>16</i>&nbsp; * @param &lt;T&gt; The object containing response data
+<i>17</i>&nbsp; */
+<i>18</i>&nbsp;public interface WebApi &lt;T&gt; {
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;  /**
+<i>21</i>&nbsp;   * Get the processed data from the web
+<i>22</i>&nbsp;   * @return Optional.empty() if query has not yet been called, or there was an error
+<i>23</i>&nbsp;   *          Optional.of(T) the data returned from the web parsed to an object
+<i>24</i>&nbsp;   */
+<i>25</i>&nbsp;  Optional&lt;T&gt; getData();
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;  /**
+<i>28</i>&nbsp;   * Initiate a call to a WebApi. This method should delegate to onReceive and onError
+<i>29</i>&nbsp;   * to process the data itself.
+<i>30</i>&nbsp;   * @param observation An Observation that for meta data such as time and GPS location
+<i>31</i>&nbsp;   */
+<i>32</i>&nbsp;  void query(Observation observation);
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;  /**
+<i>35</i>&nbsp;   * Process valid responses from the web and generate data for the user
+<i>36</i>&nbsp;   * @param dataReceived a String containing valid data.
+<i>37</i>&nbsp;   */
+<i>38</i>&nbsp;  void onReceive(String dataReceived);
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;  /**
+<i>41</i>&nbsp;   * Process invalid responses from the web and generate an appropriate error message
+<i>42</i>&nbsp;   * @param dataReceived a String containing invalid data
+<i>43</i>&nbsp;   * @param code The server response code
+<i>44</i>&nbsp;   */
+<i>45</i>&nbsp;  void onError(String dataReceived, int code);
+<i>46</i>&nbsp;
+<i>47</i>&nbsp;  /**
+<i>48</i>&nbsp;   * The error message generated if the most recent call to query was unsuccessful.
+<i>49</i>&nbsp;   * If {@code getData()} returns {@code Optional.empty()} after a query call this should
+<i>50</i>&nbsp;   * provide details why.
+<i>51</i>&nbsp;   * @return The current error message
+<i>52</i>&nbsp;   */
+<i>53</i>&nbsp;  String getError();
+<i>54</i>&nbsp;
+<i>55</i>&nbsp;
+<i>56</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-10-30 11:13</div>
+</div>
+</body>
+</html>

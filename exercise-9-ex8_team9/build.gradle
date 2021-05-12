@@ -1,0 +1,66 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'scala'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // Use JUnit Jupiter API for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    // Use JUnit Jupiter Engine for testing.
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+    testImplementation "org.hamcrest:hamcrest:2.1"
+    implementation 'org.scala-lang:scala-library:2.13.3'
+    implementation group: 'com.github.tototoshi', name: 'scala-csv_2.13', version: '1.3.6'
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.8'
+
+}
+
+application {
+    // Define the main class for the application.
+    //   mainClass = 'ex9.ProcessObs'
+    mainClass = 'ca.uvic.seng330.ex9.Driver'
+
+}
+
+test {
+    // Use junit platform for unit tests
+    useJUnitPlatform()
+}
+
+// adds integration testing in the src/intTest folder
+sourceSets {
+    intTest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+configurations {
+    intTestImplementation.extendsFrom implementation
+    intTestRuntimeOnly.extendsFrom runtimeOnly
+}
+
+dependencies {
+    intTestImplementation 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+}
+
+task integrationTest(type: Test) {
+    description = 'Runs integration tests.'
+    group = 'verification'
+    useJUnitPlatform()
+    testClassesDirs = sourceSets.intTest.output.classesDirs
+    classpath = sourceSets.intTest.runtimeClasspath
+    shouldRunAfter test
+}
+
+check.dependsOn integrationTest

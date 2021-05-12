@@ -1,0 +1,799 @@
+{
+  "_comment": "token 592ee93de4c6712191eebf96735fa6 Dummy wind data",
+  "modelID": "GFS",
+  "requestTime": "2020-10-25T23:34:36.067Z",
+  "requestLocation": {
+    "latitude": 37.0001,
+    "longitude": -152.0001
+  },
+  "forecastVariables": [
+    {
+      "variableID": "GFS-magnitude10MeterWind",
+      "variableName": "magnitude10MeterWind",
+      "dataCategory": "atmospheric",
+      "physicalUnit": "m/s",
+      "values": [
+        {
+          "timestamp": "2020-10-25T23:00:00.000Z",
+          "value": 12.0560274124146,
+          "leadTimeHours": 53
+        },
+        {
+          "timestamp": "2020-10-26T00:00:00.000Z",
+          "value": 11.7756252288818,
+          "leadTimeHours": 54
+        },
+        {
+          "timestamp": "2020-10-26T01:00:00.000Z",
+          "value": 11.8284664154053,
+          "leadTimeHours": 55
+        },
+        {
+          "timestamp": "2020-10-26T02:00:00.000Z",
+          "value": 11.7988042831421,
+          "leadTimeHours": 56
+        },
+        {
+          "timestamp": "2020-10-26T03:00:00.000Z",
+          "value": 11.9262218475342,
+          "leadTimeHours": 57
+        },
+        {
+          "timestamp": "2020-10-26T04:00:00.000Z",
+          "value": 11.9132299423218,
+          "leadTimeHours": 58
+        },
+        {
+          "timestamp": "2020-10-26T05:00:00.000Z",
+          "value": 11.69948387146,
+          "leadTimeHours": 59
+        },
+        {
+          "timestamp": "2020-10-26T06:00:00.000Z",
+          "value": 11.6330575942993,
+          "leadTimeHours": 60
+        },
+        {
+          "timestamp": "2020-10-26T07:00:00.000Z",
+          "value": 12.1012535095215,
+          "leadTimeHours": 61
+        },
+        {
+          "timestamp": "2020-10-26T08:00:00.000Z",
+          "value": 12.2374038696289,
+          "leadTimeHours": 62
+        },
+        {
+          "timestamp": "2020-10-26T09:00:00.000Z",
+          "value": 11.9230012893677,
+          "leadTimeHours": 63
+        },
+        {
+          "timestamp": "2020-10-26T10:00:00.000Z",
+          "value": 11.6942262649536,
+          "leadTimeHours": 64
+        },
+        {
+          "timestamp": "2020-10-26T11:00:00.000Z",
+          "value": 11.6591987609863,
+          "leadTimeHours": 65
+        },
+        {
+          "timestamp": "2020-10-26T12:00:00.000Z",
+          "value": 11.535270690918,
+          "leadTimeHours": 66
+        },
+        {
+          "timestamp": "2020-10-26T13:00:00.000Z",
+          "value": 11.2906579971313,
+          "leadTimeHours": 67
+        },
+        {
+          "timestamp": "2020-10-26T14:00:00.000Z",
+          "value": 11.1996126174927,
+          "leadTimeHours": 68
+        },
+        {
+          "timestamp": "2020-10-26T15:00:00.000Z",
+          "value": 11.1055946350098,
+          "leadTimeHours": 69
+        },
+        {
+          "timestamp": "2020-10-26T16:00:00.000Z",
+          "value": 11.0815963745117,
+          "leadTimeHours": 70
+        },
+        {
+          "timestamp": "2020-10-26T17:00:00.000Z",
+          "value": 11.3081655502319,
+          "leadTimeHours": 71
+        },
+        {
+          "timestamp": "2020-10-26T18:00:00.000Z",
+          "value": 10.7575616836548,
+          "leadTimeHours": 72
+        },
+        {
+          "timestamp": "2020-10-26T19:00:00.000Z",
+          "value": 10.7742013931274,
+          "leadTimeHours": 73
+        },
+        {
+          "timestamp": "2020-10-26T20:00:00.000Z",
+          "value": 11.3042936325073,
+          "leadTimeHours": 74
+        },
+        {
+          "timestamp": "2020-10-26T21:00:00.000Z",
+          "value": 10.8039197921753,
+          "leadTimeHours": 75
+        },
+        {
+          "timestamp": "2020-10-26T22:00:00.000Z",
+          "value": 11.0058174133301,
+          "leadTimeHours": 76
+        },
+        {
+          "timestamp": "2020-10-26T23:00:00.000Z",
+          "value": 11.1645374298096,
+          "leadTimeHours": 77
+        },
+        {
+          "timestamp": "2020-10-27T00:00:00.000Z",
+          "value": 10.9486112594604,
+          "leadTimeHours": 78
+        },
+        {
+          "timestamp": "2020-10-27T01:00:00.000Z",
+          "value": 10.9514532089233,
+          "leadTimeHours": 79
+        },
+        {
+          "timestamp": "2020-10-27T02:00:00.000Z",
+          "value": 10.7459182739258,
+          "leadTimeHours": 80
+        },
+        {
+          "timestamp": "2020-10-27T03:00:00.000Z",
+          "value": 10.5271196365356,
+          "leadTimeHours": 81
+        },
+        {
+          "timestamp": "2020-10-27T04:00:00.000Z",
+          "value": 10.8172521591187,
+          "leadTimeHours": 82
+        },
+        {
+          "timestamp": "2020-10-27T05:00:00.000Z",
+          "value": 10.86865234375,
+          "leadTimeHours": 83
+        },
+        {
+          "timestamp": "2020-10-27T06:00:00.000Z",
+          "value": 11.165825843811,
+          "leadTimeHours": 84
+        },
+        {
+          "timestamp": "2020-10-27T07:00:00.000Z",
+          "value": 11.8512649536133,
+          "leadTimeHours": 85
+        },
+        {
+          "timestamp": "2020-10-27T08:00:00.000Z",
+          "value": 11.7994260787964,
+          "leadTimeHours": 86
+        },
+        {
+          "timestamp": "2020-10-27T09:00:00.000Z",
+          "value": 10.6724138259888,
+          "leadTimeHours": 87
+        },
+        {
+          "timestamp": "2020-10-27T10:00:00.000Z",
+          "value": 9.95243167877197,
+          "leadTimeHours": 88
+        },
+        {
+          "timestamp": "2020-10-27T11:00:00.000Z",
+          "value": 10.576132774353,
+          "leadTimeHours": 89
+        },
+        {
+          "timestamp": "2020-10-27T12:00:00.000Z",
+          "value": 10.8850250244141,
+          "leadTimeHours": 90
+        },
+        {
+          "timestamp": "2020-10-27T13:00:00.000Z",
+          "value": 10.4603338241577,
+          "leadTimeHours": 91
+        },
+        {
+          "timestamp": "2020-10-27T14:00:00.000Z",
+          "value": 10.2490167617798,
+          "leadTimeHours": 92
+        },
+        {
+          "timestamp": "2020-10-27T15:00:00.000Z",
+          "value": 9.61928558349609,
+          "leadTimeHours": 93
+        },
+        {
+          "timestamp": "2020-10-27T16:00:00.000Z",
+          "value": 8.62209129333496,
+          "leadTimeHours": 94
+        },
+        {
+          "timestamp": "2020-10-27T17:00:00.000Z",
+          "value": 7.52330541610718,
+          "leadTimeHours": 95
+        },
+        {
+          "timestamp": "2020-10-27T18:00:00.000Z",
+          "value": 6.36901187896729,
+          "leadTimeHours": 96
+        },
+        {
+          "timestamp": "2020-10-27T19:00:00.000Z",
+          "value": 5.12871885299683,
+          "leadTimeHours": 97
+        },
+        {
+          "timestamp": "2020-10-27T20:00:00.000Z",
+          "value": 4.41901731491089,
+          "leadTimeHours": 98
+        },
+        {
+          "timestamp": "2020-10-27T21:00:00.000Z",
+          "value": 4.11046314239502,
+          "leadTimeHours": 99
+        },
+        {
+          "timestamp": "2020-10-27T22:00:00.000Z",
+          "value": 3.36841201782227,
+          "leadTimeHours": 100
+        },
+        {
+          "timestamp": "2020-10-27T23:00:00.000Z",
+          "value": 4.32324886322021,
+          "leadTimeHours": 101
+        },
+        {
+          "timestamp": "2020-10-28T00:00:00.000Z",
+          "value": 5.22508955001831,
+          "leadTimeHours": 102
+        },
+        {
+          "timestamp": "2020-10-28T01:00:00.000Z",
+          "value": 5.38754034042358,
+          "leadTimeHours": 103
+        },
+        {
+          "timestamp": "2020-10-28T02:00:00.000Z",
+          "value": 4.7596607208252,
+          "leadTimeHours": 104
+        },
+        {
+          "timestamp": "2020-10-28T03:00:00.000Z",
+          "value": 4.54197454452515,
+          "leadTimeHours": 105
+        },
+        {
+          "timestamp": "2020-10-28T04:00:00.000Z",
+          "value": 4.74565505981445,
+          "leadTimeHours": 106
+        },
+        {
+          "timestamp": "2020-10-28T05:00:00.000Z",
+          "value": 5.52418375015259,
+          "leadTimeHours": 107
+        },
+        {
+          "timestamp": "2020-10-28T06:00:00.000Z",
+          "value": 6.10719299316406,
+          "leadTimeHours": 108
+        },
+        {
+          "timestamp": "2020-10-28T07:00:00.000Z",
+          "value": 6.482017993927,
+          "leadTimeHours": 109
+        },
+        {
+          "timestamp": "2020-10-28T08:00:00.000Z",
+          "value": 6.95432806015015,
+          "leadTimeHours": 110
+        },
+        {
+          "timestamp": "2020-10-28T09:00:00.000Z",
+          "value": 7.27164125442505,
+          "leadTimeHours": 111
+        },
+        {
+          "timestamp": "2020-10-28T10:00:00.000Z",
+          "value": 7.55158662796021,
+          "leadTimeHours": 112
+        },
+        {
+          "timestamp": "2020-10-28T11:00:00.000Z",
+          "value": 8.31252002716064,
+          "leadTimeHours": 113
+        },
+        {
+          "timestamp": "2020-10-28T12:00:00.000Z",
+          "value": 8.92773246765137,
+          "leadTimeHours": 114
+        },
+        {
+          "timestamp": "2020-10-28T13:00:00.000Z",
+          "value": 9.64197731018066,
+          "leadTimeHours": 115
+        },
+        {
+          "timestamp": "2020-10-28T14:00:00.000Z",
+          "value": 10.0744619369507,
+          "leadTimeHours": 116
+        },
+        {
+          "timestamp": "2020-10-28T15:00:00.000Z",
+          "value": 9.62427043914795,
+          "leadTimeHours": 117
+        },
+        {
+          "timestamp": "2020-10-28T16:00:00.000Z",
+          "value": 9.12123489379883,
+          "leadTimeHours": 118
+        },
+        {
+          "timestamp": "2020-10-28T17:00:00.000Z",
+          "value": 8.77008056640625,
+          "leadTimeHours": 119
+        },
+        {
+          "timestamp": "2020-10-28T18:00:00.000Z",
+          "value": 7.99739599227905,
+          "leadTimeHours": 120
+        },
+        {
+          "timestamp": "2020-10-28T21:00:00.000Z",
+          "value": 9.93461132049561,
+          "leadTimeHours": 123
+        },
+        {
+          "timestamp": "2020-10-29T00:00:00.000Z",
+          "value": 11.0016584396362,
+          "leadTimeHours": 126
+        },
+        {
+          "timestamp": "2020-10-29T03:00:00.000Z",
+          "value": 10.2781419754028,
+          "leadTimeHours": 129
+        },
+        {
+          "timestamp": "2020-10-29T06:00:00.000Z",
+          "value": 9.55097103118896,
+          "leadTimeHours": 132
+        },
+        {
+          "timestamp": "2020-10-29T09:00:00.000Z",
+          "value": 9.27679920196533,
+          "leadTimeHours": 135
+        },
+        {
+          "timestamp": "2020-10-29T12:00:00.000Z",
+          "value": 10.9309015274048,
+          "leadTimeHours": 138
+        },
+        {
+          "timestamp": "2020-10-29T15:00:00.000Z",
+          "value": 9.45182037353516,
+          "leadTimeHours": 141
+        },
+        {
+          "timestamp": "2020-10-29T18:00:00.000Z",
+          "value": 8.43586158752441,
+          "leadTimeHours": 144
+        },
+        {
+          "timestamp": "2020-10-29T21:00:00.000Z",
+          "value": 7.05086135864258,
+          "leadTimeHours": 147
+        },
+        {
+          "timestamp": "2020-10-30T00:00:00.000Z",
+          "value": 6.33033847808838,
+          "leadTimeHours": 150
+        },
+        {
+          "timestamp": "2020-10-30T03:00:00.000Z",
+          "value": 5.35600090026855,
+          "leadTimeHours": 153
+        },
+        {
+          "timestamp": "2020-10-30T06:00:00.000Z",
+          "value": 3.28594040870667,
+          "leadTimeHours": 156
+        },
+        {
+          "timestamp": "2020-10-30T09:00:00.000Z",
+          "value": 1.00290739536285,
+          "leadTimeHours": 159
+        },
+        {
+          "timestamp": "2020-10-30T12:00:00.000Z",
+          "value": 2.19844126701355,
+          "leadTimeHours": 162
+        },
+        {
+          "timestamp": "2020-10-30T15:00:00.000Z",
+          "value": 3.75764298439026,
+          "leadTimeHours": 165
+        },
+        {
+          "timestamp": "2020-10-30T18:00:00.000Z",
+          "value": 5.92918634414673,
+          "leadTimeHours": 168
+        },
+        {
+          "timestamp": "2020-10-30T21:00:00.000Z",
+          "value": 8.27602767944336,
+          "leadTimeHours": 171
+        },
+        {
+          "timestamp": "2020-10-31T00:00:00.000Z",
+          "value": 9.41767024993896,
+          "leadTimeHours": 174
+        },
+        {
+          "timestamp": "2020-10-31T03:00:00.000Z",
+          "value": 10.0778350830078,
+          "leadTimeHours": 177
+        },
+        {
+          "timestamp": "2020-10-31T06:00:00.000Z",
+          "value": 10.2355136871338,
+          "leadTimeHours": 180
+        },
+        {
+          "timestamp": "2020-10-31T09:00:00.000Z",
+          "value": 11.0291013717651,
+          "leadTimeHours": 183
+        },
+        {
+          "timestamp": "2020-10-31T12:00:00.000Z",
+          "value": 11.0785579681396,
+          "leadTimeHours": 186
+        },
+        {
+          "timestamp": "2020-10-31T15:00:00.000Z",
+          "value": 11.7818212509155,
+          "leadTimeHours": 189
+        },
+        {
+          "timestamp": "2020-10-31T18:00:00.000Z",
+          "value": 10.9029121398926,
+          "leadTimeHours": 192
+        },
+        {
+          "timestamp": "2020-10-31T21:00:00.000Z",
+          "value": 10.3415327072144,
+          "leadTimeHours": 195
+        },
+        {
+          "timestamp": "2020-11-01T00:00:00.000Z",
+          "value": 10.2464303970337,
+          "leadTimeHours": 198
+        },
+        {
+          "timestamp": "2020-11-01T03:00:00.000Z",
+          "value": 7.99906253814697,
+          "leadTimeHours": 201
+        },
+        {
+          "timestamp": "2020-11-01T06:00:00.000Z",
+          "value": 7.43819379806519,
+          "leadTimeHours": 204
+        },
+        {
+          "timestamp": "2020-11-01T09:00:00.000Z",
+          "value": 6.80932331085205,
+          "leadTimeHours": 207
+        },
+        {
+          "timestamp": "2020-11-01T12:00:00.000Z",
+          "value": 4.97723913192749,
+          "leadTimeHours": 210
+        },
+        {
+          "timestamp": "2020-11-01T15:00:00.000Z",
+          "value": 4.72066020965576,
+          "leadTimeHours": 213
+        },
+        {
+          "timestamp": "2020-11-01T18:00:00.000Z",
+          "value": 6.3088207244873,
+          "leadTimeHours": 216
+        },
+        {
+          "timestamp": "2020-11-01T21:00:00.000Z",
+          "value": 8.18933868408203,
+          "leadTimeHours": 219
+        },
+        {
+          "timestamp": "2020-11-02T00:00:00.000Z",
+          "value": 10.1376810073853,
+          "leadTimeHours": 222
+        },
+        {
+          "timestamp": "2020-11-02T03:00:00.000Z",
+          "value": 11.2215013504028,
+          "leadTimeHours": 225
+        },
+        {
+          "timestamp": "2020-11-02T06:00:00.000Z",
+          "value": 12.6647024154663,
+          "leadTimeHours": 228
+        },
+        {
+          "timestamp": "2020-11-02T09:00:00.000Z",
+          "value": 14.3727207183838,
+          "leadTimeHours": 231
+        },
+        {
+          "timestamp": "2020-11-02T12:00:00.000Z",
+          "value": 15.220682144165,
+          "leadTimeHours": 234
+        },
+        {
+          "timestamp": "2020-11-02T15:00:00.000Z",
+          "value": 13.3937578201294,
+          "leadTimeHours": 237
+        },
+        {
+          "timestamp": "2020-11-02T18:00:00.000Z",
+          "value": 10.2259511947632,
+          "leadTimeHours": 240
+        },
+        {
+          "timestamp": "2020-11-02T21:00:00.000Z",
+          "value": 9.87688732147217,
+          "leadTimeHours": 243
+        },
+        {
+          "timestamp": "2020-11-03T00:00:00.000Z",
+          "value": 10.3510589599609,
+          "leadTimeHours": 246
+        },
+        {
+          "timestamp": "2020-11-03T03:00:00.000Z",
+          "value": 9.95968914031982,
+          "leadTimeHours": 249
+        },
+        {
+          "timestamp": "2020-11-03T06:00:00.000Z",
+          "value": 8.77722454071045,
+          "leadTimeHours": 252
+        },
+        {
+          "timestamp": "2020-11-03T09:00:00.000Z",
+          "value": 8.65572834014893,
+          "leadTimeHours": 255
+        },
+        {
+          "timestamp": "2020-11-03T12:00:00.000Z",
+          "value": 12.1621074676514,
+          "leadTimeHours": 258
+        },
+        {
+          "timestamp": "2020-11-03T15:00:00.000Z",
+          "value": 11.820294380188,
+          "leadTimeHours": 261
+        },
+        {
+          "timestamp": "2020-11-03T18:00:00.000Z",
+          "value": 12.3643856048584,
+          "leadTimeHours": 264
+        },
+        {
+          "timestamp": "2020-11-03T21:00:00.000Z",
+          "value": 12.5253133773804,
+          "leadTimeHours": 267
+        },
+        {
+          "timestamp": "2020-11-04T00:00:00.000Z",
+          "value": 13.216667175293,
+          "leadTimeHours": 270
+        },
+        {
+          "timestamp": "2020-11-04T03:00:00.000Z",
+          "value": 10.4540891647339,
+          "leadTimeHours": 273
+        },
+        {
+          "timestamp": "2020-11-04T06:00:00.000Z",
+          "value": 11.4670467376709,
+          "leadTimeHours": 276
+        },
+        {
+          "timestamp": "2020-11-04T09:00:00.000Z",
+          "value": 10.7825384140015,
+          "leadTimeHours": 279
+        },
+        {
+          "timestamp": "2020-11-04T12:00:00.000Z",
+          "value": 11.0979251861572,
+          "leadTimeHours": 282
+        },
+        {
+          "timestamp": "2020-11-04T15:00:00.000Z",
+          "value": 11.0491619110107,
+          "leadTimeHours": 285
+        },
+        {
+          "timestamp": "2020-11-04T18:00:00.000Z",
+          "value": 10.7495594024658,
+          "leadTimeHours": 288
+        },
+        {
+          "timestamp": "2020-11-04T21:00:00.000Z",
+          "value": 9.36965560913086,
+          "leadTimeHours": 291
+        },
+        {
+          "timestamp": "2020-11-05T00:00:00.000Z",
+          "value": 8.77157402038574,
+          "leadTimeHours": 294
+        },
+        {
+          "timestamp": "2020-11-05T03:00:00.000Z",
+          "value": 9.48434162139893,
+          "leadTimeHours": 297
+        },
+        {
+          "timestamp": "2020-11-05T06:00:00.000Z",
+          "value": 9.33313465118408,
+          "leadTimeHours": 300
+        },
+        {
+          "timestamp": "2020-11-05T09:00:00.000Z",
+          "value": 9.94300079345703,
+          "leadTimeHours": 303
+        },
+        {
+          "timestamp": "2020-11-05T12:00:00.000Z",
+          "value": 11.394962310791,
+          "leadTimeHours": 306
+        },
+        {
+          "timestamp": "2020-11-05T15:00:00.000Z",
+          "value": 11.0584020614624,
+          "leadTimeHours": 309
+        },
+        {
+          "timestamp": "2020-11-05T18:00:00.000Z",
+          "value": 11.0234804153442,
+          "leadTimeHours": 312
+        },
+        {
+          "timestamp": "2020-11-05T21:00:00.000Z",
+          "value": 9.55341053009033,
+          "leadTimeHours": 315
+        },
+        {
+          "timestamp": "2020-11-06T00:00:00.000Z",
+          "value": 9.86747264862061,
+          "leadTimeHours": 318
+        },
+        {
+          "timestamp": "2020-11-06T03:00:00.000Z",
+          "value": 9.41729736328125,
+          "leadTimeHours": 321
+        },
+        {
+          "timestamp": "2020-11-06T06:00:00.000Z",
+          "value": 8.5601224899292,
+          "leadTimeHours": 324
+        },
+        {
+          "timestamp": "2020-11-06T09:00:00.000Z",
+          "value": 7.22954082489014,
+          "leadTimeHours": 327
+        },
+        {
+          "timestamp": "2020-11-06T12:00:00.000Z",
+          "value": 8.2002067565918,
+          "leadTimeHours": 330
+        },
+        {
+          "timestamp": "2020-11-06T15:00:00.000Z",
+          "value": 7.2991509437561,
+          "leadTimeHours": 333
+        },
+        {
+          "timestamp": "2020-11-06T18:00:00.000Z",
+          "value": 6.0595874786377,
+          "leadTimeHours": 336
+        },
+        {
+          "timestamp": "2020-11-06T21:00:00.000Z",
+          "value": 5.68930864334106,
+          "leadTimeHours": 339
+        },
+        {
+          "timestamp": "2020-11-07T00:00:00.000Z",
+          "value": 8.18814086914062,
+          "leadTimeHours": 342
+        },
+        {
+          "timestamp": "2020-11-07T03:00:00.000Z",
+          "value": 7.7258939743042,
+          "leadTimeHours": 345
+        },
+        {
+          "timestamp": "2020-11-07T06:00:00.000Z",
+          "value": 6.72269535064697,
+          "leadTimeHours": 348
+        },
+        {
+          "timestamp": "2020-11-07T09:00:00.000Z",
+          "value": 5.21756172180176,
+          "leadTimeHours": 351
+        },
+        {
+          "timestamp": "2020-11-07T12:00:00.000Z",
+          "value": 4.22888088226318,
+          "leadTimeHours": 354
+        },
+        {
+          "timestamp": "2020-11-07T15:00:00.000Z",
+          "value": 3.005610704422,
+          "leadTimeHours": 357
+        },
+        {
+          "timestamp": "2020-11-07T18:00:00.000Z",
+          "value": 3.85478782653809,
+          "leadTimeHours": 360
+        },
+        {
+          "timestamp": "2020-11-07T21:00:00.000Z",
+          "value": 5.80613946914673,
+          "leadTimeHours": 363
+        },
+        {
+          "timestamp": "2020-11-08T00:00:00.000Z",
+          "value": 7.30353164672852,
+          "leadTimeHours": 366
+        },
+        {
+          "timestamp": "2020-11-08T03:00:00.000Z",
+          "value": 8.02608394622803,
+          "leadTimeHours": 369
+        },
+        {
+          "timestamp": "2020-11-08T06:00:00.000Z",
+          "value": 9.47980308532715,
+          "leadTimeHours": 372
+        },
+        {
+          "timestamp": "2020-11-08T09:00:00.000Z",
+          "value": 11.167724609375,
+          "leadTimeHours": 375
+        },
+        {
+          "timestamp": "2020-11-08T12:00:00.000Z",
+          "value": 11.6909790039062,
+          "leadTimeHours": 378
+        },
+        {
+          "timestamp": "2020-11-08T15:00:00.000Z",
+          "value": 13.6235866546631,
+          "leadTimeHours": 381
+        },
+        {
+          "timestamp": "2020-11-08T18:00:00.000Z",
+          "value": 15.4765777587891,
+          "leadTimeHours": 384
+        }
+      ]
+    }
+  ]
+}
